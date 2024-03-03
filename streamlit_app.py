@@ -2,7 +2,6 @@
 import streamlit as st
 import pandas as pd
 from google.cloud import bigquery
-from google.cloud import documentai
 from google.oauth2 import service_account
 from google.cloud.exceptions import NotFound
 from google.oauth2 import id_token
